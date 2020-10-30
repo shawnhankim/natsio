@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/shawnhankim/natsio"
+	"github.com/shawnhankim/natsio/nats"
 )
 
 func main() {
-	natsio.RunServer()
-	natsio.RunClient()
+	nats.RunServer()
+	nats.RunClient()
 }
